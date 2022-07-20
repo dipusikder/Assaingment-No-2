@@ -1,18 +1,21 @@
 #header {
     display: flex;
-    margin: 40px 219px;
-    padding: 68px 57px;
+
+    width: 70%;
+    margin: 40px 110px;
+    padding: 68px 107px;
     background-color: #161616;
     border-radius: 34px;
     align-items: center;
 }
 
-#header .h-primary{
+#header .h-primary {
     color: aliceblue;
-    
+
 
 
 }
+
 #header .h-primary h1 {
     color: aliceblue;
     margin-right: 33px;
@@ -20,60 +23,157 @@
     font-family: 'Abril Fatface', cursive;
 
 }
-#header .h-primary p{
+
+#header .h-primary p {
     font-size: 0.80rem;
     padding-right: 125px;
 }
-#header .h-primary button{
+
+#header .h-primary button {
     color: white;
     height: 47px;
     font-size: 1.00rem;
     padding: 12px;
-    background-color:#DD0000;
+    background-color: #DD0000;
     border-radius: 9px;
 }
+
 /* main.............  */
+main {
+    display: flex;
+    width: 100%;
+}
 
-#Link-Site{
-    width: 50%;
-    background-color: rgb(31, 8, 13);
+.link {
+    display: flex;
+}
+
+.Conatiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    grid-gap: 12px;
+    width: 33px;
+}
+
+#Link-Site {
+    box-sizing: border-box;
+    width: 138%;
+    margin-right: 17px;
+    background-color: #161616;
+    height: 242px;
     text-align: center;
-    padding: 33px;
+    margin-left: 103px;
+    padding: 33px 22px;
+    border-radius: 15px;
 }
-#Link-Site .Link-1{
+
+#Link-Site .Link-1 {
     text-decoration: none;
-    width: 33%;
+    width: 87%;
     background-color: aliceblue;
     padding: 10px;
-    margin-bottom: 14px;
+    margin-bottom: 23px;
     border-radius: 3px;
 
-    
+
 
 }
-#Link-Site .Link-2{
+
+#Link-Site .Link-2 {
     text-decoration: none;
-    width: 33%;
+    width: 87%;
     background-color: aliceblue;
     padding: 10px;
-    margin-bottom: 14px;
+    margin-bottom: 23px;
     border-radius: 3px;
-
 }
-#Link-Site .Link-3{
+
+#Link-Site .Link-3 {
     text-decoration: none;
-    width: 33%;
-    background-color: aliceblue;
+    width: 87%;
     padding: 10px;
-    margin-bottom: 14px;
+    margin-bottom: 7px;
     border-radius: 3px;
     background-color: #DD0000;
-    
+
 
 }
-#Link-Site a{
+
+#Link-Site a {
     text-decoration: none;
+    color: #161616
 }
-#Link-Site .Link-3 a{
+
+#Link-Site .Link-3 a {
     color: white;
+}
+
+.blogs {
+    border: 2px solid rgb(231, 219, 219);
+    border-radius: 12px;
+}
+
+.blogs button {
+    height: 33px;
+    width: 88px;
+    margin: 7px 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.Icon {
+    display: flex;
+    align-items: center;
+}
+
+.Icon-1 {
+    display: flex;
+
+}
+
+.Icon-1 img {
+    padding: 12px 4px;
+}
+
+.Icon-2 {
+    display: flex;
+}
+
+.Icon-2 img {
+    padding: 13px 12px;
+}
+
+footer {
+    margin-top: 124px;
+    background-color: #161616;
+}
+
+footer h1 {
+    margin-top: 124px;
+    margin-bottom: 33px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Taviraj', serif;
+    font-size: 33px;
+}
+
+hr {
+    width: 79%;
+    color: white;
+}
+
+.List {
+    margin-left: 197px;
+    margin-right: 242px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(22, 22, 236);
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 76px;
 }
