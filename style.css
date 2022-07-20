@@ -1,0 +1,79 @@
+#header {
+    display: flex;
+    margin: 40px 219px;
+    padding: 68px 57px;
+    background-color: #161616;
+    border-radius: 34px;
+    align-items: center;
+}
+
+#header .h-primary{
+    color: aliceblue;
+    
+
+
+}
+#header .h-primary h1 {
+    color: aliceblue;
+    margin-right: 33px;
+    font-size: 3.34rem;
+    font-family: 'Abril Fatface', cursive;
+
+}
+#header .h-primary p{
+    font-size: 0.80rem;
+    padding-right: 125px;
+}
+#header .h-primary button{
+    color: white;
+    height: 47px;
+    font-size: 1.00rem;
+    padding: 12px;
+    background-color:#DD0000;
+    border-radius: 9px;
+}
+/* main.............  */
+
+#Link-Site{
+    width: 50%;
+    background-color: rgb(31, 8, 13);
+    text-align: center;
+    padding: 33px;
+}
+#Link-Site .Link-1{
+    text-decoration: none;
+    width: 33%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-radius: 3px;
+
+    
+
+}
+#Link-Site .Link-2{
+    text-decoration: none;
+    width: 33%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-radius: 3px;
+
+}
+#Link-Site .Link-3{
+    text-decoration: none;
+    width: 33%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-radius: 3px;
+    background-color: #DD0000;
+    
+
+}
+#Link-Site a{
+    text-decoration: none;
+}
+#Link-Site .Link-3 a{
+    color: white;
+}
