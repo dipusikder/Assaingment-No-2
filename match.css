@@ -55,6 +55,12 @@ main {
     grid-gap: 12px;
     width: 33px;
 }
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    align-items: center;
+}
 
 #Link-Site {
     box-sizing: border-box;
@@ -110,8 +116,11 @@ main {
 }
 
 .blogs {
+    text-align: center;
     border: 2px solid rgb(231, 219, 219);
     border-radius: 12px;
+    margin: 4px 0px;
+    padding: 31px 50px;
 }
 
 .blogs button {
