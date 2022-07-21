@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* head */
 #header {
     display: flex;
 
@@ -51,7 +52,7 @@ main {
     display: flex;
     width: 100%;
 }
-
+/* .....Side-Button... */
 .link {
     display: flex;
 }
@@ -118,7 +119,9 @@ main {
 #Link-Site .Link-3 a {
     color: white;
 }
-
+/* .....Side-Button... */
+/* ......
+.........artical ......start.*/
 .blogs {
     border: 2px solid rgb(231, 219, 219);
     border-radius: 12px;
@@ -154,6 +157,8 @@ main {
 .Icon-2 img {
     padding: 13px 12px;
 }
+/* .........artical ......finish.*/
+/* ....fotter..start. */
 footer {
     margin-top: 124px;
     background-color: #161616;
@@ -194,8 +199,11 @@ ul li {
     justify-content: space-around;
     align-items: center;
 }
+/* ....fotter..end. */
+/* ****************ATTENTION PLEASE***************** */
 
 
+/* media size start for mobile  */
 @media screen and (max-width: 576px) {
     body {
         background-color: white;
@@ -248,10 +256,10 @@ ul li {
     .social i {
         padding: 22px;
     }
-    
+    /* media size end for mobile  */
 
 }
-
+/* media size start for pad  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     body {
         background-color: white;
@@ -360,3 +368,4 @@ ul li {
     }
 
 }
+/* media size start for pad  */
