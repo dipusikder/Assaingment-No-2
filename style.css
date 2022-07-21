@@ -254,12 +254,13 @@ ul li {
         grid-template-columns: repeat(2, 1fr);
         width: 876px;
     }
-    .blogs{
+
+    .blogs {
         margin: -4px 14px;
     }
 
     span img {
-        width:428px ;
+        width: 428px;
     }
 
     .last {
@@ -285,7 +286,7 @@ ul li {
     #Link-Site .Link-1 {
 
         text-decoration: none;
-        background-color: #DD0000;
+        background-color: white;
         font-weight: 500;
         border: 0.5px solid black;
         font-size: 22px;
@@ -309,9 +310,8 @@ ul li {
     }
 
     #Link-Site .Link-3 {
-
         text-decoration: none;
-        background-color: white;
+        background-color: #DD0000;
         font-weight: 500;
         border: 0.5px solid black;
         font-size: 22px;
