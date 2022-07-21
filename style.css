@@ -150,6 +150,18 @@ main {
 .Icon-2 img {
     padding: 13px 12px;
 }
+.view{
+    display: none;
+
+}
+button{
+    display: none;
+    height: 65px;
+    width: 138px;
+    background-color: #DD0000;
+    justify-content: center;
+    margin-top: 126px;
+}
 
 footer {
     margin-top: 124px;
@@ -203,7 +215,7 @@ ul li {
         flex-direction: column;
         width: 391px;
         padding: 0px 55px;
-        margin: 0 21px;
+        margin: 12px 21px;
     }
 
     main {
@@ -312,7 +324,7 @@ ul li {
         border: 0.5px solid black;
         font-size: 22px;
         width: 87%;
-        padding: 18px 14px;
+        padding: 5px 14px;
         margin: 11px 10px;
         border-radius: 12px;
 
@@ -325,7 +337,7 @@ ul li {
         border: 0.5px solid black;
         font-size: 22px;
         width: 87%;
-        padding: 18px 14px;
+        padding: 5px 14px;
         margin: 11px 10px;
         border-radius: 12px;
     }
@@ -337,13 +349,16 @@ ul li {
         border: 0.5px solid black;
         font-size: 22px;
         width: 87%;
-        padding: 18px 14px;
+        padding: 5px 14px;
         margin: 11px 10px;
         border-radius: 12px;
     }
 
     .botoom {
         display: none;
+    }
+    .port{
+        display: visible;
     }
 
     .List {

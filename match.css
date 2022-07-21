@@ -1,3 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
 #header {
     display: flex;
 
@@ -186,6 +195,13 @@ ul li {
     text-align: center;
     margin-bottom: 76px;
 }
+.social{
+    color: aliceblue;
+    display: flex;
+    font-size: 44px;
+    justify-content: space-around;
+    align-items: center;
+}
 
 @media screen and (max-width: 576px) {
     body {
@@ -227,6 +243,17 @@ ul li {
         margin-left: -73px;
         margin-right: 0;
         text-align: center;
+    }
+    .social{
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        font-size: 44px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .social i {
+        padding: 22px;
     }
 
 
@@ -298,7 +325,7 @@ ul li {
         border: 0.5px solid black;
         font-size: 22px;
         width: 87%;
-        padding: 18px 14px;
+        padding: 5px 14px;
         margin: 11px 10px;
         border-radius: 12px;
 
@@ -311,7 +338,7 @@ ul li {
         border: 0.5px solid black;
         font-size: 22px;
         width: 87%;
-        padding: 18px 14px;
+        padding: 5px 14px;
         margin: 11px 10px;
         border-radius: 12px;
     }
@@ -330,10 +357,8 @@ ul li {
     }
 
     .List {
-        display: grid;
-        grid-template-columns: max-content;
         margin-bottom: -8px;
-        margin-left: -73px;
+        margin-left: -36px;
         margin-right: 0;
         text-align: center;
     }
