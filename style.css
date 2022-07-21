@@ -13,18 +13,19 @@ body{
     align-items: center;
 }
 
-#header .h-primary {
+.h-primary {
     color: aliceblue;
 
 
 
 }
 
-#header .h-primary h1 {
+.h-primary h1 {
     color: aliceblue;
     margin-right: 33px;
     font-size: 3.34rem;
     font-family: 'Abril Fatface', cursive;
+    transition: color 3s;
 
 }
 
@@ -32,14 +33,16 @@ body{
     font-size: 0.80rem;
     padding-right: 125px;
 }
-
-#header .h-primary button {
+button {
     color: white;
     height: 47px;
     font-size: 1.00rem;
     padding: 12px;
     background-color: #DD0000;
     border-radius: 9px;
+}
+.h-primary h1:hover {
+    color: #DD0000;
 }
 
 /* main.............  */
@@ -150,19 +153,6 @@ main {
 .Icon-2 img {
     padding: 13px 12px;
 }
-.view{
-    display: none;
-
-}
-button{
-    display: none;
-    height: 65px;
-    width: 138px;
-    background-color: #DD0000;
-    justify-content: center;
-    margin-top: 126px;
-}
-
 footer {
     margin-top: 124px;
     background-color: #161616;
@@ -245,7 +235,6 @@ ul li {
         margin-left: -73px;
         margin-right: 0;
         text-align: center;
-        border: 1px solid black;
     }
     .social{
         color: aliceblue;
