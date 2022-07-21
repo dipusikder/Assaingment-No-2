@@ -75,6 +75,7 @@ main {
     padding: 10px;
     margin-bottom: 23px;
     border-radius: 3px;
+    
 
 
 
@@ -96,6 +97,7 @@ main {
     margin-bottom: 7px;
     border-radius: 3px;
     background-color: #DD0000;
+    
 
 
 }
@@ -221,4 +223,48 @@ ul li {
         text-align: center;
     }
 
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    body {
+        background-color: white;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        width: 391px;
+        padding: 0px 55px;
+        margin: 0 21px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    #Link-Site {
+        margin: 10px 65px;
+        padding: 40px 91px;
+        background-color: white;
+    }
+
+    .Conatiner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 44px;
+        margin: 0 44px;
+        padding: 0 55px
+    }
+
+    .List {
+        display: grid;
+        grid-template-columns: max-content;
+        margin-bottom: -8px;
+        margin-left: -73px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    
 }

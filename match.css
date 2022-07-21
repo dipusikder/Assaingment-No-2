@@ -55,7 +55,8 @@ main {
     grid-gap: 12px;
     width: 33px;
 }
-.box{
+
+.box {
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
@@ -65,22 +66,23 @@ main {
 #Link-Site {
     box-sizing: border-box;
     width: 138%;
-    margin-right: 17px;
+    margin-right: 26px;
     background-color: #161616;
     height: 242px;
     text-align: center;
     margin-left: 103px;
-    padding: 33px 22px;
+    padding: 33px 51px;
     border-radius: 15px;
 }
 
 #Link-Site .Link-1 {
     text-decoration: none;
-    width: 87%;
+    width: 77%;
     background-color: aliceblue;
-    padding: 10px;
+    padding: 13px 22px;
     margin-bottom: 23px;
     border-radius: 3px;
+    background-color: #DD0000;
 
 
 
@@ -98,10 +100,11 @@ main {
 #Link-Site .Link-3 {
     text-decoration: none;
     width: 87%;
+    background-color: aliceblue;
     padding: 10px;
-    margin-bottom: 7px;
+    margin-bottom: 23px;
     border-radius: 3px;
-    background-color: #DD0000;
+
 
 
 }
@@ -109,10 +112,7 @@ main {
 #Link-Site a {
     text-decoration: none;
     color: #161616
-}
 
-#Link-Site .Link-3 a {
-    color: white;
 }
 
 .blogs {
@@ -230,4 +230,69 @@ ul li {
         text-align: center;
     }
 
+    
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    body {
+        background-color: white;
+    }
+    #header {
+        width: 681px;
+        padding: 37px 121px;
+        margin: 0 21px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    #Link-Site{
+        display: flex
+        
+    }
+    #Link-Site .Link-1{
+        background-color: white;
+        border-radius: 0;
+    }
+    .Conatiner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .last{
+        display: none;
+    }
+    .tab{
+        display: none;
+    }
+    #Link-Site{
+    
+        box-sizing: border-box;
+        width: 138%;
+        margin: 8px 50px;
+        height: 242px;
+        text-align: center;
+        padding: 33px 22px;
+        border-radius: 15px;
+    
+    }
+    
+#Link-Site .Link-1{
+    text-decoration: none;
+    width: 87%;
+    background-color: none;
+    padding: 10px;
+    margin-bottom: 23px;
+    border-radius: 3px;
+    
+}
+    .List {
+        display: grid;
+        grid-template-columns: max-content;
+        margin-bottom: -8px;
+        margin-left: -73px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    
 }
